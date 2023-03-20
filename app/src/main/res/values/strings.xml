@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">carlyandlil</string>
+    <string name="lets_get_dressed">Lets get dressed</string>
+    <string name="self_destruct" />
+    <string name="todo">TODO</string>
+    <string name="Forgot_password" />
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="todo1">TODO</string>
+</resources>

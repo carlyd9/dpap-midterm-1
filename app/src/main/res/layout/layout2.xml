@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/homepage"
+        android:layout_width="105dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="150dp"
+        android:text="My Closet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/homepage2"
+        android:layout_width="105dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        android:text="School Outfits"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/homepage3"
+        android:layout_width="105dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="200dp"
+        android:text="Beach Outfits"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/homepage4"
+        android:layout_width="105dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="300dp"
+        android:text="Work Outfits"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/homepage5"
+        android:layout_width="105dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="400dp"
+        android:text="Evening Outfits"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="350dp"
+        android:layout_marginBottom="500dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/pic1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/myImageView2"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="500dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/pic2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/myImageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/myImageView4"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="500dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/pic4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/myImageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/myImageView5"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="500dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/pic5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/myImageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/myImageView6"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="500dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/pic6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/myImageView5"
+        app:layout_constraintTop_toTopOf="@+id/myImageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/myImageView3"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="190dp"
+        android:layout_marginBottom="500dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/pic3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/myImageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
