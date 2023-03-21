@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/homepage7"
+        android:layout_width="105dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="16dp"
+        android:text="Profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/homepage3"
+        android:layout_width="152dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="204dp"
+        android:text="Danielle Bernstein"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/homepage11"
+        android:layout_width="183dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="76dp"
+        android:text=" @daniellebenstein"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/my_button4"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="266dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="436dp"
+        android:text="View whole calendar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/my_button5"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="588dp"
+        android:text="Log Out"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/myImageView1"
+        android:layout_width="274dp"
+        android:layout_height="149dp"
+        android:layout_marginBottom="536dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/profilepic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/myImageView5"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="1832dp"
+        android:layout_marginEnd="248dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/schoolfit4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/myImageView5" />
+
+    <ImageView
+        android:id="@+id/myImageView16"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/eveningfit2"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <ImageView
+        android:id="@+id/myImageView4"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/schoolfit3"
+        app:layout_constraintDimensionRatio="w,1:1"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <ImageView
+        android:id="@+id/myImageView2"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/schoolfit1"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <TextView
+        android:id="@+id/homepage6"
+        android:layout_width="105dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="300dp"
+        android:text="My Calendar:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/myImageView15"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/eveningfit4"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <ImageView
+        android:id="@+id/myImageView6"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/schoolfit5"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <ImageView
+        android:id="@+id/myImageView8"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/workfit1"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <ImageView
+        android:id="@+id/myImageView3"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/schoolfit2"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <ImageView
+        android:id="@+id/myImageView13"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/eveningfit2"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <ImageView
+        android:id="@+id/myImageView14"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/eveningfit3"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <ImageView
+        android:id="@+id/myImageView10"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/workfit3"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <ImageView
+        android:id="@+id/myImageView12"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/workfit6"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <ImageView
+        android:id="@+id/myImageView11"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/workfit4"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <ImageView
+        android:id="@+id/myImageView7"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/schoolfit6"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <TextView
+        android:id="@+id/homepage9"
+        android:layout_width="105dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="324dp"
+        android:text="Last 14 days"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/myImageView9"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/workfit2"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
