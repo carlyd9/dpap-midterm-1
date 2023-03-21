@@ -52,7 +52,12 @@
         android:layout_height="38dp"
         android:layout_marginStart="68dp"
         android:layout_marginTop="436dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="114dp"
         android:text="View whole calendar"
+        app:layout_constraintBottom_toTopOf="@+id/my_button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
@@ -88,8 +93,9 @@
 
     <ImageView
         android:id="@+id/myImageView5"
-        android:layout_width="32dp"
-        android:layout_height="33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="131dp"
         android:layout_marginTop="1832dp"
         android:layout_marginEnd="248dp"
         android:adjustViewBounds="true"
@@ -99,25 +105,30 @@
         android:cropToPadding="false"
         android:src="@drawable/schoolfit4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/myImageView5" />
 
     <ImageView
         android:id="@+id/myImageView16"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="12dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/eveningfit2"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="391dp" />
+        app:layout_constraintBottom_toTopOf="@+id/my_button4"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/myImageView4"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="8dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
@@ -125,21 +136,23 @@
         android:cropToPadding="false"
         android:src="@drawable/schoolfit3"
         app:layout_constraintDimensionRatio="w,1:1"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="391dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myImageView8" />
 
     <ImageView
         android:id="@+id/myImageView2"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="9dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/schoolfit1"
-        tools:layout_editor_absoluteX="269dp"
-        tools:layout_editor_absoluteY="349dp" />
+        app:layout_constraintEnd_toStartOf="@+id/myImageView7"
+        app:layout_constraintTop_toBottomOf="@+id/homepage11" />
 
     <TextView
         android:id="@+id/homepage6"
@@ -156,131 +169,150 @@
         android:id="@+id/myImageView15"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="9dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/eveningfit4"
-        tools:layout_editor_absoluteX="269dp"
-        tools:layout_editor_absoluteY="391dp" />
+        app:layout_constraintEnd_toStartOf="@+id/myImageView16"
+        app:layout_constraintTop_toBottomOf="@+id/myImageView2" />
 
     <ImageView
         android:id="@+id/myImageView6"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginTop="8dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/schoolfit5"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="391dp" />
+        app:layout_constraintTop_toBottomOf="@+id/myImageView10"
+        tools:layout_editor_absoluteX="148dp" />
 
     <ImageView
         android:id="@+id/myImageView8"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/workfit1"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="349dp" />
+        app:layout_constraintEnd_toStartOf="@+id/myImageView9"
+        app:layout_constraintTop_toBottomOf="@+id/homepage9" />
 
     <ImageView
         android:id="@+id/myImageView3"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="7dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/schoolfit2"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="391dp" />
+        app:layout_constraintEnd_toStartOf="@+id/myImageView6"
+        app:layout_constraintTop_toBottomOf="@+id/myImageView9" />
 
     <ImageView
         android:id="@+id/myImageView13"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="12dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/eveningfit2"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="391dp" />
+        app:layout_constraintBottom_toTopOf="@+id/my_button4"
+        app:layout_constraintStart_toEndOf="@+id/myImageView6" />
 
     <ImageView
         android:id="@+id/myImageView14"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="7dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/eveningfit3"
-        tools:layout_editor_absoluteX="230dp"
-        tools:layout_editor_absoluteY="391dp" />
+        app:layout_constraintEnd_toStartOf="@+id/myImageView15"
+        app:layout_constraintTop_toBottomOf="@+id/myImageView12" />
 
     <ImageView
         android:id="@+id/myImageView10"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/workfit3"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="349dp" />
+        app:layout_constraintEnd_toStartOf="@+id/myImageView11"
+        app:layout_constraintTop_toBottomOf="@+id/homepage9" />
 
     <ImageView
         android:id="@+id/myImageView12"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="7dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/workfit6"
-        tools:layout_editor_absoluteX="230dp"
-        tools:layout_editor_absoluteY="349dp" />
+        app:layout_constraintEnd_toStartOf="@+id/myImageView2"
+        app:layout_constraintTop_toBottomOf="@+id/homepage11" />
 
     <ImageView
         android:id="@+id/myImageView11"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="9dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/workfit4"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="349dp" />
+        app:layout_constraintBottom_toTopOf="@+id/myImageView13"
+        app:layout_constraintEnd_toStartOf="@+id/myImageView12" />
 
     <ImageView
         android:id="@+id/myImageView7"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="69dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/schoolfit6"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="349dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homepage11" />
 
     <TextView
         android:id="@+id/homepage9"
@@ -297,14 +329,16 @@
         android:id="@+id/myImageView9"
         android:layout_width="32dp"
         android:layout_height="33dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="7dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/workfit2"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="349dp" />
+        app:layout_constraintEnd_toStartOf="@+id/myImageView10"
+        app:layout_constraintTop_toBottomOf="@+id/homepage9" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
