@@ -43,18 +43,20 @@
         android:text="@string/lets_get_dressed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/my_button10"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="114dp"
         android:layout_height="48dp"
         android:layout_marginStart="148dp"
-        android:layout_marginTop="572dp"
+        android:layout_marginTop="376dp"
         android:text="Password"
         android:textColor="#212121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
+
     <TextView
         android:id="@+id/myTextView3"
         android:layout_width="154dp"
