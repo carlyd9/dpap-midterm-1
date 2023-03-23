@@ -1,23 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/myImageView1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+
+    <Button
+        android:id="@+id/my_button2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="273dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="352dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/camerarollicon"
+        android:drawablePadding="10dp"
+        android:text="Camera Roll"
+        android:textColor="#212121"
+        android:textSize="20sp"
+        app:iconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_width="341dp"
-        android:layout_height="458dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/camera"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="92dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/page5"
+        android:layout_width="229dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="180dp"
+        android:text="Choose Outfit From"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/my_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="154dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="272dp"
+        android:background="#FFFFFF"
+        android:text="Camera"
+        android:textColor="#212121"
+        android:textSize="20sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+

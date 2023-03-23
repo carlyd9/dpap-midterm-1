@@ -17,6 +17,7 @@
         android:layout_marginStart="148dp"
         android:layout_marginTop="424dp"
         android:text="@string/forgot_password"
+        android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,6 +29,7 @@
         android:layout_marginStart="148dp"
         android:layout_marginTop="324dp"
         android:text="Username"
+        android:textSize="20sp"
         android:textColor="#212121"
         app:iconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,6 +43,7 @@
         android:layout_marginStart="148dp"
         android:layout_marginTop="292dp"
         android:text="@string/lets_get_dressed"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -52,6 +55,7 @@
         android:layout_marginStart="148dp"
         android:layout_marginTop="376dp"
         android:text="Password"
+        android:textSize="20sp"
         android:textColor="#212121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -64,6 +68,7 @@
         android:layout_marginStart="148dp"
         android:layout_marginTop="624dp"
         android:text="Not a user? Sign Up"
+        android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
@@ -76,6 +81,7 @@
         android:layout_marginStart="148dp"
         android:layout_marginTop="572dp"
         android:text="Sign Up"
+        android:textSize="15sp"
         android:textColor="#212121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
