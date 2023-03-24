@@ -7,68 +7,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_dodgeInsetEdges="bottom|start"
-    tools:context=".activity_main">
+    tools:context=".MainActivity">
 
-
-    <TextView
-        android:id="@+id/myTextView2"
-        android:layout_width="156dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="424dp"
-        android:text="@string/forgot_password"
-        android:textSize="8sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/my_button2"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="156dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="324dp"
-        android:text="Username"
-        android:textColor="#212121"
-        android:textSize="10sp"
-        app:iconTint="#FFFFFF"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:id="@+id/myTextView"
-        android:layout_width="158dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="292dp"
-        android:text="@string/lets_get_dressed"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/my_button10"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="158dp"
         android:layout_height="48dp"
-        android:layout_marginStart="148dp"
+        android:layout_marginStart="124dp"
         android:layout_marginTop="376dp"
         android:text="Password"
         android:textColor="#212121"
         android:textSize="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:id="@+id/myTextView3"
-        android:layout_width="154dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="588dp"
-        android:text="Not a user? Sign Up"
-        android:textSize="8sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
@@ -78,7 +29,7 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="155dp"
         android:layout_height="48dp"
-        android:layout_marginStart="148dp"
+        android:layout_marginStart="124dp"
         android:layout_marginTop="540dp"
         android:text="Sign In"
         android:textColor="#212121"
@@ -86,6 +37,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="158dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="292dp"
+        android:text="@string/lets_get_dressed"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/myTextView2"
+        android:layout_width="156dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="424dp"
+        android:text="@string/forgot_password"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/myImageView"
@@ -100,9 +73,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/my_button2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="156dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="324dp"
+        android:text="Username"
+        android:textColor="#212121"
+        android:textSize="10sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
-
-
+    <TextView
+        android:id="@+id/myTextView3"
+        android:layout_width="154dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="588dp"
+        android:text="Not a user? Sign Up"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

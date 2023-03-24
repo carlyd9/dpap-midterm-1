@@ -22,10 +22,11 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(view.getContext(), SigninActivity.class);
+                Intent i = new Intent(MainActivity.this,LandingPage.class);
                 view.getContext().startActivity(i);
             }
         });
+
         Button btn2 = findViewById(R.id.my_button2);
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override

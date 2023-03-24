@@ -396,7 +396,47 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <ImageView
+        android:id="@+id/navbarbackground"
+        android:layout_width="426dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="4dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/navbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
+    <ImageButton
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:background="#E7F9EF"
+        android:contentDescription="A tiny Android icon"
+        android:src="@drawable/navigation_foreground"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="635dp" />
 
+    <ImageButton
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:background="#E7F9EF"
+        android:contentDescription="A tiny Android icon"
+        android:src="@drawable/profile_foreground"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <ImageButton
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:background="#E7F9EF"
+        android:contentDescription="A tiny Android icon"
+        android:src="@drawable/closet_foreground"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="635dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
