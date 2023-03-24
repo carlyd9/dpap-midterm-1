@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Button Clicked!",Toast.LENGTH_LONG).show();
+                Intent i = new Intent(view.getContext(), SigninActivity.class);
+                view.getContext().startActivity(i);
             }
         });
         Button btn2 = findViewById(R.id.my_button2);
