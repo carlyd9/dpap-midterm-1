@@ -28,8 +28,6 @@
         tools:ignore="HardcodedText" />
 
 
-
-
     <TextView
         android:id="@+id/page5"
         android:layout_width="229dp"
