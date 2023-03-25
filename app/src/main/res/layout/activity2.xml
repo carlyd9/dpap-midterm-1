@@ -46,19 +46,19 @@
             tools:ignore="HardcodedText" />
 
 
-        <TextView
-            android:id="@+id/homepage4"
-            android:layout_width="105dp"
-            android:layout_height="0dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="228dp"
-            android:text="Work Outfits"
-            android:textSize="14sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/homepage4"
+        android:layout_width="105dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="224dp"
+        android:text="Work Outfits"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
-        <TextView
+    <TextView
             android:id="@+id/homepage5"
             android:layout_width="105dp"
             android:layout_height="0dp"
@@ -290,20 +290,20 @@
             app:layout_constraintStart_toEndOf="@+id/myImageView11"
             app:layout_constraintTop_toBottomOf="@+id/homepage3" />
 
-        <ImageView
-            android:id="@+id/myImageView13"
-            android:layout_width="0dp"
-            android:layout_height="72dp"
-            android:layout_marginTop="39dp"
-            android:layout_marginEnd="216dp"
-            android:adjustViewBounds="true"
-            android:background="#E7F9EF"
-            android:contentDescription="@string/todo1"
-            android:contextClickable="false"
-            android:cropToPadding="false"
-            android:src="@drawable/beachfit3"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/myImageView9" />
+    <ImageView
+        android:id="@+id/myImageView13"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="216dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/beachfit3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myImageView9" />
 
         <ImageView
             android:id="@+id/myImageView14"
@@ -397,7 +397,74 @@
             app:layout_constraintEnd_toEndOf="parent" />
 
 
+    <ImageView
+        android:id="@+id/navbarbackground"
+        android:layout_width="426dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="4dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/navbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
+    <ImageButton
+        android:id="@+id/camerabutton"
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="144dp"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/a_tiny_android_icon4"
+        android:src="@drawable/navigation_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myImageView19"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="90dp"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/a_tiny_android_icon3"
+        android:src="@drawable/profile_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myImageView20" />
+
+    <ImageButton
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="15dp"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/a_tiny_android_icon2"
+        android:src="@drawable/closet_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/a_tiny_android_icon"
+        android:src="@drawable/backbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/fowardbutton"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/a_tiny_android_icon6"
+        android:src="@drawable/checkbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

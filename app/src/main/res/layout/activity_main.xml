@@ -19,13 +19,13 @@
         android:layout_marginTop="376dp"
         android:text="Password"
         android:textColor="#212121"
-        android:textSize="10dp"
+        android:textSize="13sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/my_button"
+        android:id="@+id/my_button50"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="155dp"
         android:layout_height="48dp"
@@ -33,7 +33,7 @@
         android:layout_marginTop="540dp"
         android:text="Sign In"
         android:textColor="#212121"
-        android:textSize="10sp"
+        android:textSize="13sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
@@ -45,7 +45,7 @@
         android:layout_marginStart="124dp"
         android:layout_marginTop="292dp"
         android:text="@string/lets_get_dressed"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -56,7 +56,7 @@
         android:layout_marginStart="124dp"
         android:layout_marginTop="424dp"
         android:text="@string/forgot_password"
-        android:textSize="8sp"
+        android:textSize="11sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -82,7 +82,7 @@
         android:layout_marginTop="324dp"
         android:text="Username"
         android:textColor="#212121"
-        android:textSize="10sp"
+        android:textSize="11sp"
         app:iconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -95,7 +95,7 @@
         android:layout_marginStart="124dp"
         android:layout_marginTop="588dp"
         android:text="Not a user? Sign Up"
-        android:textSize="8sp"
+        android:textSize="11sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />

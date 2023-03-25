@@ -42,7 +42,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/my_button90"
+        android:id="@+id/my_button2"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="261dp"
         android:layout_height="53dp"
@@ -87,6 +87,7 @@
         tools:ignore="HardcodedText" />
 
     <ImageButton
+        android:id="@+id/camerabutton2"
         android:layout_width="121dp"
         android:layout_height="80dp"
         android:layout_marginStart="144dp"
@@ -98,6 +99,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
+        android:id="@+id/camerabutton90"
         android:layout_width="121dp"
         android:layout_height="80dp"
         android:layout_marginStart="288dp"
