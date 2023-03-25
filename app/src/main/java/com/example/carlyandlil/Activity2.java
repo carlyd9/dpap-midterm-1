@@ -19,7 +19,7 @@ public class Activity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),"Yay!Lets add a new picture",Toast.LENGTH_LONG).show();
-                Intent homepage3 = new Intent(view.getContext(), Activity3.class);
+                Intent homepage3 = new Intent(view.getContext(), Activity5.class);
                 startActivity(homepage3);
             }
         });
