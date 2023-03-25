@@ -41,23 +41,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/my_button2"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="261dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="300dp"
-        android:background="#FFFFFF"
-        android:drawableLeft="@drawable/camerarollicon"
-        android:drawablePadding="10dp"
-        android:text="Camera Roll"
-        android:textColor="#212121"
-        android:textSize="20sp"
-        app:iconTint="#FFFFFF"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/page5"
@@ -70,17 +53,37 @@
         app:layout_constraintBottom_toTopOf="@+id/navbarbackground"
         app:layout_constraintStart_toStartOf="parent" />
 
+
+    <Button
+        android:id="@+id/my_button90"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="256dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="300dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/cameraroll1_foreground"
+        android:drawablePadding="10dp"
+        android:text="Camera Roll"
+        android:textColor="#212121"
+        android:textSize="16sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
     <Button
         android:id="@+id/my_button50"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="261dp"
+        android:layout_width="256dp"
         android:layout_height="50dp"
         android:layout_marginStart="72dp"
         android:layout_marginTop="236dp"
         android:background="#FFFFFF"
         android:text="Take Photo"
+        android:drawableLeft="@drawable/takephoto_foreground"
         android:textColor="#212121"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:iconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -107,6 +110,16 @@
         android:src="@drawable/profile_foreground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/a_tiny_android_icon"
+        android:src="@drawable/backbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:layout_width="121dp"

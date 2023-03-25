@@ -25,7 +25,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
-
     <ImageView
         android:id="@+id/navbarbackground1"
         android:layout_width="321dp"
@@ -41,23 +40,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/my_button2"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="261dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="300dp"
-        android:background="#FFFFFF"
-        android:drawableLeft="@drawable/camerarollicon"
-        android:drawablePadding="10dp"
-        android:text="Camera Roll"
-        android:textColor="#212121"
-        android:textSize="20sp"
-        app:iconTint="#FFFFFF"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText" />
+    <ImageButton
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        android:background="#E7F9EF"
+        android:contentDescription="A tiny Android icon"
+        android:src="@drawable/profile_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="635dp" />
 
     <TextView
         android:id="@+id/page5"
@@ -69,6 +60,42 @@
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/navbarbackground"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/my_button90"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="256dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="300dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/cameraroll1_foreground"
+        android:drawablePadding="10dp"
+        android:text="Camera Roll"
+        android:textColor="#212121"
+        android:textSize="16sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/my_button50"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="236dp"
+        android:background="#FFFFFF"
+        android:text="Take Photo"
+        android:drawableLeft="@drawable/takephoto_foreground"
+        android:textColor="#212121"
+        android:textSize="16sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
 
     <ImageButton
         android:id="@+id/backbutton"
@@ -92,22 +119,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageButton
-        android:id="@+id/cameraicon"
-        android:layout_width="85dp"
-        android:layout_height="79dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginBottom="444dp"
-        android:background="#657E66"
-        android:contentDescription="A tiny Android icon"
-        android:src="@drawable/cameraicon"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="132dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/closet_foreground"

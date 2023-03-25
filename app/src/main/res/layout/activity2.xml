@@ -204,22 +204,22 @@
             app:layout_constraintStart_toEndOf="@+id/myImageView7"
             app:layout_constraintTop_toBottomOf="@+id/homepage4" />
 
-        <ImageView
-            android:id="@+id/myImageView9"
-            android:layout_width="0dp"
-            android:layout_height="72dp"
-            android:layout_marginTop="53dp"
-            android:layout_marginEnd="216dp"
-            android:adjustViewBounds="true"
-            android:background="#E7F9EF"
-            android:contentDescription="@string/todo1"
-            android:contextClickable="false"
-            android:cropToPadding="false"
-            android:src="@drawable/workfit3"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/myImageView2" />
+    <ImageView
+        android:id="@+id/myImageView9"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="212dp"
+        android:adjustViewBounds="true"
+        android:background="#E7F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/workfit3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myImageView2" />
 
-        <ImageView
+    <ImageView
             android:id="@+id/myImageView10"
             android:layout_width="0dp"
             android:layout_height="72dp"
