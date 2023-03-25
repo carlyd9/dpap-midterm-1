@@ -25,7 +25,15 @@ public class Activity3 extends AppCompatActivity {
                 startActivity(homepage4);
             }
         });
-
+        ImageButton btn503 = findViewById(R.id.fowardbutton);
+        btn503.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"Lets see your new pic",Toast.LENGTH_LONG).show();
+                Intent homepage4 = new Intent(view.getContext(), Activity4.class);
+                startActivity(homepage4);
+            }
+        });
     }
 
 }
