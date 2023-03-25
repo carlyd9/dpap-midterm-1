@@ -3,6 +3,7 @@ package com.example.carlyandlil;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
@@ -15,7 +16,7 @@ public class Activity5 extends AppCompatActivity {
         setContentView(R.layout.activity5);
 
 
-        ImageButton btn5 = findViewById(R.id.cameraicon);
+        Button btn5 = findViewById(R.id.my_button50);
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

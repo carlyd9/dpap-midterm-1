@@ -43,12 +43,13 @@
     <ImageButton
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="4dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/profile_foreground"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="635dp" />
+        app:layout_constraintTop_toBottomOf="@+id/navbarbackground1" />
 
     <TextView
         android:id="@+id/page5"
@@ -69,7 +70,7 @@
         android:layout_marginStart="72dp"
         android:layout_marginTop="300dp"
         android:background="#FFFFFF"
-        android:drawableLeft="@drawable/cameraroll1_foreground"
+        android:drawableLeft="@drawable/takepic"
         android:drawablePadding="10dp"
         android:text="Camera Roll"
         android:textColor="#212121"
@@ -88,7 +89,7 @@
         android:layout_marginTop="236dp"
         android:background="#FFFFFF"
         android:text="Take Photo"
-        android:drawableLeft="@drawable/takephoto_foreground"
+        android:drawableLeft="@drawable/takepic"
         android:textColor="#212121"
         android:textSize="16sp"
         app:iconTint="#FFFFFF"
