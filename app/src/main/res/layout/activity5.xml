@@ -13,7 +13,6 @@
         android:id="@+id/navbarbackground"
         android:layout_width="426dp"
         android:layout_height="101dp"
-        android:layout_marginBottom="4dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
@@ -22,15 +21,12 @@
         android:src="@drawable/navbar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/navbarbackground1"
         android:layout_width="321dp"
         android:layout_height="393dp"
-        android:layout_marginEnd="56dp"
-        android:layout_marginBottom="228dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
@@ -38,37 +34,38 @@
         android:cropToPadding="false"
         android:src="@drawable/navbar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
+        android:id="@+id/imageButton5"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginTop="132dp"
-        android:layout_marginEnd="4dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/profile_foreground"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/navbarbackground1" />
+        app:layout_constraintTop_toTopOf="@+id/navbarbackground" />
 
     <TextView
         android:id="@+id/page5"
         android:layout_width="234dp"
         android:layout_height="46dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginBottom="456dp"
+        android:layout_marginTop="12dp"
         android:text="Choose Outfit From"
         android:textSize="25sp"
-        app:layout_constraintBottom_toTopOf="@+id/navbarbackground"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/navbarbackground1" />
+
 
     <Button
         android:id="@+id/my_button90"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="256dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="300dp"
+        android:layout_width="207dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="116dp"
         android:background="#FFFFFF"
         android:drawableLeft="@drawable/takepic"
         android:drawablePadding="10dp"
@@ -76,27 +73,27 @@
         android:textColor="#212121"
         android:textSize="16sp"
         app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/page5"
         tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/my_button50"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="256dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="236dp"
+        android:layout_width="207dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
         android:background="#FFFFFF"
-        android:text="Take Photo"
         android:drawableLeft="@drawable/takepic"
+        android:text="Take Photo"
         android:textColor="#212121"
         android:textSize="16sp"
         app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/page5"
         tools:ignore="HardcodedText" />
-
 
     <ImageButton
         android:id="@+id/backbutton"
@@ -112,23 +109,22 @@
         android:id="@+id/camerabutton2"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginBottom="16dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/navigation_foreground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintTop_toTopOf="@+id/navbarbackground" />
 
 
     <ImageButton
+        android:id="@+id/imageButton4"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginTop="132dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/closet_foreground"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/navbarbackground1" />
+        app:layout_constraintTop_toTopOf="@+id/navbarbackground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

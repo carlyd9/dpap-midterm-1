@@ -16,12 +16,12 @@
         android:layout_width="158dp"
         android:layout_height="48dp"
         android:layout_marginStart="124dp"
-        android:layout_marginTop="376dp"
+        android:layout_marginTop="44dp"
         android:text="Password"
         android:textColor="#212121"
         android:textSize="13sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myTextView"
         tools:ignore="HardcodedText" />
 
     <Button
@@ -29,13 +29,13 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="155dp"
         android:layout_height="48dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="540dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="164dp"
         android:text="Sign In"
         android:textColor="#212121"
         android:textSize="13sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/my_button10"
         tools:ignore="HardcodedText" />
 
     <TextView
@@ -54,11 +54,11 @@
         android:layout_width="156dp"
         android:layout_height="27dp"
         android:layout_marginStart="124dp"
-        android:layout_marginTop="424dp"
+        android:layout_marginTop="56dp"
         android:text="@string/forgot_password"
         android:textSize="11sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/my_button10" />
 
     <ImageView
         android:id="@+id/myImageView"
@@ -70,6 +70,7 @@
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,25 +80,27 @@
         android:layout_width="156dp"
         android:layout_height="48dp"
         android:layout_marginStart="124dp"
-        android:layout_marginTop="324dp"
+        android:layout_marginTop="28dp"
         android:text="Username"
         android:textColor="#212121"
         android:textSize="11sp"
         app:iconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/myTextView"
         tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/myTextView3"
         android:layout_width="154dp"
         android:layout_height="25dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="588dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="164dp"
         android:text="Not a user? Sign Up"
         android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/myTextView2"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="HardcodedText" />
 
 
