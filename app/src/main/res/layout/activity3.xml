@@ -155,6 +155,7 @@
         app:layout_constraintTop_toBottomOf="@+id/myImageView3"
         app:layout_constraintVertical_bias="1.0" />
 
+
     <ImageView
         android:id="@+id/navbarbackground"
         android:layout_width="426dp"
@@ -175,14 +176,13 @@
         android:id="@+id/camerabutton5"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginTop="173dp"
+        android:layout_marginTop="168dp"
         android:layout_marginEnd="152dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/navigation_foreground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/my_button5" />
-
 
     <ImageButton
         android:id="@+id/caalander"
@@ -212,7 +212,7 @@
         android:id="@+id/profileb"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="140dp"
         android:layout_marginEnd="8dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
