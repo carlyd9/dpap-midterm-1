@@ -176,7 +176,7 @@
         android:id="@+id/camerabutton5"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="172dp"
         android:layout_marginEnd="152dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
@@ -186,10 +186,10 @@
 
     <ImageButton
         android:id="@+id/caalander"
-        android:layout_width="64dp"
+        android:layout_width="72dp"
         android:layout_height="48dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="244dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="232dp"
         android:background="#00E700EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/calander"
@@ -221,14 +221,18 @@
         app:layout_constraintTop_toBottomOf="@+id/homepage11" />
 
     <ImageButton
+        android:id="@+id/imageButton2"
         android:layout_width="121dp"
         android:layout_height="80dp"
+        android:layout_marginStart="8dp"
         android:layout_marginBottom="16dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/closet_foreground"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homepage9"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:id="@+id/backbutton"
