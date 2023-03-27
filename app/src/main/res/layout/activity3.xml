@@ -13,13 +13,11 @@
         android:id="@+id/homepage3"
         android:layout_width="105dp"
         android:layout_height="0dp"
+        android:layout_marginStart="144dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="80dp"
         android:text="New look"
         android:textSize="25sp"
-        app:layout_constraintEnd_toStartOf="@+id/fowardbutton"
-        app:layout_constraintHorizontal_bias="0.965"
-        app:layout_constraintStart_toEndOf="@+id/backbutton"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
@@ -27,25 +25,24 @@
         android:id="@+id/homepage6"
         android:layout_width="105dp"
         android:layout_height="0dp"
-        android:layout_marginTop="252dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="332dp"
         android:text="Date:"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.029"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/backbutton"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/homepage7"
         android:layout_width="105dp"
         android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="284dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="380dp"
         android:text="Category"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/backbutton"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <Button
@@ -53,12 +50,12 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="416dp"
         android:text="School"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/my_button7"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <Button
@@ -66,12 +63,12 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="416dp"
         android:text="Work"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/homepage7"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <Button
@@ -79,11 +76,12 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="112dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="416dp"
         android:text="Evening"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/my_button7"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <Button
@@ -92,48 +90,70 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="224dp"
+        android:layout_marginTop="416dp"
         android:text="Beach"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/my_button5"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/homepage9"
         android:layout_width="105dp"
         android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="172dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="472dp"
         android:text="Description:"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/homepage6"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/homepage11"
         android:layout_width="105dp"
         android:layout_height="0dp"
-        android:layout_marginStart="184dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginEnd="16dp"
         android:text="(0/150 words)"
         android:textSize="11sp"
-        app:layout_constraintStart_toEndOf="@+id/homepage9"
-        app:layout_constraintTop_toTopOf="@+id/homepage9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/myImageView3"
         android:layout_width="394dp"
         android:layout_height="234dp"
+        android:layout_marginBottom="412dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/workfit1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/textbox"
+        android:layout_width="416dp"
+        android:layout_height="147dp"
+        android:layout_marginBottom="92dp"
+        android:adjustViewBounds="true"
+        android:background="#0000F9EF"
+        android:contentDescription="@string/todo1"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:src="@drawable/textbox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/homepage3" />
+        app:layout_constraintTop_toBottomOf="@+id/myImageView3"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/navbarbackground"
@@ -155,34 +175,60 @@
         android:id="@+id/camerabutton5"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginStart="144dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="152dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/navigation_foreground"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_button5" />
+
 
     <ImageButton
-        android:id="@+id/my_button12"
+        android:id="@+id/caalander"
+        android:layout_width="64dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="244dp"
+        android:background="#00E700EF"
+        android:contentDescription="A tiny Android icon"
+        android:src="@drawable/calander"
+        app:layout_constraintStart_toStartOf="@+id/homepage6"
+        app:layout_constraintTop_toTopOf="@+id/myImageView3" />
+
+    <ImageButton
+        android:id="@+id/plusr"
+        android:layout_width="111dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        android:background="#00E700EF"
+        android:contentDescription="A tiny Android icon"
+        android:src="@drawable/plus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homepage6" />
+
+    <ImageButton
+        android:id="@+id/profileb"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginStart="288dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="8dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/profile_foreground"
-        app:layout_constraintStart_toStartOf="@+id/navbarbackground"
-        app:layout_constraintTop_toTopOf="@+id/camerabutton5" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homepage11" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/closet_foreground"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/navbarbackground" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/backbutton"
@@ -198,12 +244,10 @@
         android:id="@+id/fowardbutton"
         android:layout_width="70dp"
         android:layout_height="40dp"
-        android:layout_marginStart="272dp"
         android:background="#E7F9EF"
         android:contentDescription="@string/a_tiny_android_icon6"
         android:src="@drawable/checkbutton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/backbutton"
         app:layout_constraintTop_toTopOf="parent" />
 
 
