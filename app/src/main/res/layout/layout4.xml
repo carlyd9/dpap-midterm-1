@@ -10,7 +10,7 @@
 
 
     <Button
-        android:id="@+id/my_button4"
+        android:id="@+id/cal_button"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="266dp"
         android:layout_height="38dp"
@@ -29,16 +29,32 @@
         tools:ignore="HardcodedText" />
 
     <Button
+        android:id="@+id/my_button4"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="364dp"
+        android:text="View whole calendar"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/myImageView1"
+        tools:ignore="HardcodedText" />
+
+    <Button
         android:id="@+id/my_button5"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="556dp"
+        android:layout_marginTop="32dp"
         android:text="Log Out"
         android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_button4"
         tools:ignore="HardcodedText" />
 
     <ImageView

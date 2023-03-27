@@ -137,10 +137,11 @@
         app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent" />
 
+
     <ImageView
         android:id="@+id/textbox"
-        android:layout_width="416dp"
-        android:layout_height="147dp"
+        android:layout_width="391dp"
+        android:layout_height="111dp"
         android:layout_marginBottom="92dp"
         android:adjustViewBounds="true"
         android:background="#0000F9EF"
@@ -150,11 +151,10 @@
         android:src="@drawable/textbox"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/myImageView3"
-        app:layout_constraintVertical_bias="1.0" />
-
+        app:layout_constraintVertical_bias="0.87" />
 
     <ImageView
         android:id="@+id/navbarbackground"
@@ -169,15 +169,15 @@
         android:src="@drawable/navbar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/camerabutton5"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginTop="172dp"
-        android:layout_marginEnd="152dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="156dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/navigation_foreground"
@@ -212,8 +212,8 @@
         android:id="@+id/profileb"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="16dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/profile_foreground"
