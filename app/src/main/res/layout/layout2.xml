@@ -12,7 +12,7 @@
     <TextView
         android:id="@+id/homepage"
         android:layout_width="119dp"
-        android:layout_height="50dp"
+        android:layout_height="30dp"
         android:layout_marginStart="156dp"
         android:layout_marginTop="24dp"
         android:text="My Closet"

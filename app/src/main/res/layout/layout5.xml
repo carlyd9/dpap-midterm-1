@@ -13,7 +13,7 @@
         android:id="@+id/navbarbackground"
         android:layout_width="426dp"
         android:layout_height="101dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginBottom="16dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
@@ -25,6 +25,36 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <ImageButton
+        android:id="@+id/camerabutton"
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:background="#E7F9EF"
+        android:contentDescription="A tiny Android icon"
+        android:src="@drawable/navigation_foreground"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="623dp" />
+
+    <ImageButton
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="136dp"
+        android:background="#E7F9EF"
+        android:contentDescription="A tiny Android icon"
+        android:src="@drawable/closet_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/navbarbackground1" />
+
+    <ImageButton
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginBottom="28dp"
+        android:background="#E7F9EF"
+        android:contentDescription="A tiny Android icon"
+        android:src="@drawable/profile_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/navbarbackground1"
@@ -87,38 +117,6 @@
         app:layout_constraintBottom_toTopOf="@+id/navbarbackground"
         app:layout_constraintStart_toStartOf="parent" />
 
-
-    <ImageButton
-        android:layout_width="121dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginBottom="16dp"
-        android:background="#E7F9EF"
-        android:contentDescription="A tiny Android icon"
-        android:src="@drawable/navigation_foreground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageButton
-        android:layout_width="121dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="288dp"
-        android:layout_marginBottom="16dp"
-        android:background="#E7F9EF"
-        android:contentDescription="A tiny Android icon"
-        android:src="@drawable/profile_foreground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageButton
-        android:layout_width="121dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="148dp"
-        android:background="#E7F9EF"
-        android:contentDescription="A tiny Android icon"
-        android:src="@drawable/closet_foreground"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/navbarbackground1" />
 
     <ImageButton
         android:id="@+id/backbutton"

@@ -23,8 +23,18 @@ public class Activity3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(), "Lets see your new pic", Toast.LENGTH_LONG).show();
-                Intent homepage4 = new Intent(view.getContext(), Activity4.class);
+                Intent homepage4 = new Intent(view.getContext(), Activity2.class);
                 startActivity(homepage4);
+            }
+        });
+        ImageButton closetbtn = findViewById(R.id.closetbtn);
+        closetbtn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Take me to my closet", Toast.LENGTH_LONG).show();
+                Intent activity2 = new Intent(view.getContext(), Activity2.class);
+                startActivity(activity2);
             }
         });
 
