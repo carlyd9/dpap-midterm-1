@@ -176,12 +176,24 @@
         android:id="@+id/camerabutton5"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="132dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/navigation_foreground"
-        app:layout_constraintTop_toBottomOf="@+id/homepage11"
-        tools:layout_editor_absoluteX="129dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_button5" />
+
+    <ImageButton
+        android:id="@+id/profileb"
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="84dp"
+        android:background="#E7F9EF"
+        android:contentDescription="A tiny Android icon"
+        android:src="@drawable/profile_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homepage11" />
 
     <ImageButton
         android:id="@+id/caalander"
@@ -206,16 +218,6 @@
         android:src="@drawable/plus"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/homepage6" />
-
-    <ImageButton
-        android:id="@+id/profileb"
-        android:layout_width="121dp"
-        android:layout_height="80dp"
-        android:background="#E7F9EF"
-        android:contentDescription="A tiny Android icon"
-        android:src="@drawable/profile_foreground"
-        tools:layout_editor_absoluteX="274dp"
-        tools:layout_editor_absoluteY="635dp" />
 
     <ImageButton
         android:id="@+id/closetbtn"
